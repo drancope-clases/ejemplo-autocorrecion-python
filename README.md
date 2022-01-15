@@ -1,14 +1,20 @@
-# Autograding Example: Python
-This example project is written in Python, and tested with pytest.
+# Ejemplo de Autocorrección: Python
+Este proyecto de ejemplo está escrito en Python, y su comprobación se realiza con pytest.
 
-### The assignment
-The tests are failing right now because the method isn't outputting the correct string. Fixing this up will make the tests green.
+### La tarea
+Las correcciones automáticas están fallando porque el *metodo* no da como resultado una *cadena* de texto (string) correcta. Cuando lo corrijas, los test se pondrán en verde.
 
-### Setup command
+### Instrucción de Setup
+Usando Anaconda, desde un terminal, si no vemos (base) en la izquierda del *prompt*, escribir:
+`conda activate`
+Y después:
+`conda install pytest`
+
+Desde un terminal sin usar Anaconda:
 `sudo -H pip3 install pytest`
 
 ### Run command
 `pytest`
 
-### Notes
-- pip's install path is not included in the PATH var by default, so without installing via `sudo -H`, pytest would be unaccessible.
+### Notas
+- Quizás la ruta (path) de instalación de pip no esté incluida en la variable de entorno PATH por defecto. De ahí lo de usar `sudo -H` para que sea accesible.
